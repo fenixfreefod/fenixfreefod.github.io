@@ -1,0 +1,44 @@
+body { 
+    background-color: rgb(240, 234, 234);
+}
+
+.icon{
+    color: rgb(249, 90, 5);
+}
+/*aqui establecemos el color de los iconos*/
+.fa-thumbs-up-grey{
+    color: rgb(202, 201, 201);
+    font-size: 22px;
+
+}
+
+.fa-thumbs-down-grey{
+    color: rgb(194, 193, 193);
+    font-size: 22px;
+}
+
+.letra-pequeña{
+    font-weight: 100;
+}
+
+
+.fondo-gris{
+ background-color: rgb(212, 210, 210);
+ color: rgba(38, 38, 38, 0.753);
+ padding: 10px;
+}
+
+.letra-negra{
+    color: black;
+}
+
+/*vamos a separar los iconos de dedo arriba*/
+.separacion-iconos i {
+    padding-right: 120px;
+}
+
+
+/*vamos a cambiar color de letra de los iconos*/
+.texto-negro{
+    color: black;
+}

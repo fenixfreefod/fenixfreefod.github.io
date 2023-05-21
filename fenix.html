@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel= "stylesheet" type="text/css" href="Fenix.css">
+
+  <!--aqui vamos a establecer la biblioteca desde la cual vamos a seleccionar los iconos  ↓↓↓ // -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
+    <title>imagen de restaurante</title>
+    </head>
+
+  <body>
+
+    <!--En esta seccion vamos a establecer la clase para el boton ↓↓↓// -->
+    
+    <div class="container">
+    
+    
+      <button class="btn"> Recogí el pedido </button>
+      <h1> <img src="/imagenes/fenix.png" alt="xxx" width="300" height="180"> </h1>
+      
+      <p style="font-size: 20px;"> <b> Sándwich Qbano (Bonanza  <br> Bogotá)  </b>
+       
+      
+        <div class="phone-icon"> 
+
+        </div>
+        <br> Avenida calle 72N # 70f-04 Barrio  <br> Bonanza </p>  
+        <p  class="fondo-gris">La tienda ha confirmado que el pedido esta listo para recolectar.</p>
+      
+        
+<br>
+<br>
+  <!-- aqui vamos a establecer la clase para nuestro icono de cuadrito naranja -->   
+      <div 
+    class="icon">
+    <i class="fas fa-check-square" style="padding-right: 15px;"></i> 
+       <span class="letra-negra"> # 12 Usuario 8574 </span>
+    </div>
+      <ul>
+        <br>
+      <span class="letra-pequeña"> 
+        <p>
+      
+          ¿Te gustó el servicio de la tienda?
+        </p>
+    </span>
+<!-- aqui creamos una doble clase fa-thumbs-down para aislar cada clase y poder darle color diferente, ya que si no se hace el color asignado quedara establecido en cada uno de los elementos de la libreria fount awesome-->
+        <p class="separacion-iconos">
+          <i class="fas fa-thumbs-up fa-thumbs-up-grey"  ><span class="texto-negro">Si</span>  </i>  
+          
+          <i class="fas fa-thumbs-down fa-thumbs-down-grey" > <span class="letra-negra">No</span></i> </i>
+        </p>
+<br>
+        
+      </ul>
+  
+    <img src="/imagenes/icono-didi.jpg.png" alt="xxx" width="70" height="65" style="display: inline-block; vertical-align: middle;">
+    <style> 
+      .btn {
+        display: block;
+        margin-left: 70px;
+        text-align:center;
+        background-color: #ee5b21ea;
+        color: #f0ebeb;
+        padding: 18px;
+        border-radius: 12px;
+        width: 220px;
+        position: absolute;
+        bottom: -20px; 
+        
+      }
+      .container { position: relative;
+      height: 100vh;}
+    
+  
+  </style>
+  <script>
+    const mapsBtn = document.getElementById("maps-btn");
+    mapsBtn.addEventListener("click", function() {
+      window.location.href = "https://www.google.com/maps?q=Avenida+calle+72N+%23+70f-04+Barrio+Bonanza";
+    });
+  </script>
+  </body>
+
+</html>
+
+
+
